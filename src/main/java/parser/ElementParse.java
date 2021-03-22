@@ -18,7 +18,7 @@ public class ElementParse {
         switch (tagName) {
 
             case XPathConstants.NAME:
-                Name.convert(element,person);
+                Name.convert(element, person);
                 break;
 
             case XPathConstants.PORTRAIT_IMAGE:

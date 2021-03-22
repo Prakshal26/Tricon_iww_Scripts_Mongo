@@ -11,7 +11,6 @@ import pojo.Person;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
-import java.sql.Connection;
 import java.sql.SQLException;
 
 public class DomParserDemo {
