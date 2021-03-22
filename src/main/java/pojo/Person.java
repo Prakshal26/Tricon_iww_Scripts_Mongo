@@ -11,6 +11,7 @@ public class Person {
     private String xmlId;
 
     private String indexedName;
+    private String plainIndexedName;
     private String nobility;
     private String titles;
     private String givenName;
@@ -70,6 +71,14 @@ public class Person {
 
     public void setIndexedName(String indexedName) {
         this.indexedName = indexedName;
+    }
+
+    public String getPlainIndexedName() {
+        return plainIndexedName;
+    }
+
+    public void setPlainIndexedName(String plainIndexedName) {
+        this.plainIndexedName = plainIndexedName;
     }
 
     public String getGivenName() {

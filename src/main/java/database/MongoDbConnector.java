@@ -32,7 +32,7 @@ public class MongoDbConnector {
         Statement stmt = null;
         try {
 
-            DB database = mongoClient.getDB("iww_data_mongo");
+            DB database = mongoClient.getDB("iww_data");
             DBCollection collection = database.getCollection("ww_people");
 
             Gson gson = new Gson();
