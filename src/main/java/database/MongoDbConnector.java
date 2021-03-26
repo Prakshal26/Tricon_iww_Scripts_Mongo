@@ -66,8 +66,8 @@ public class MongoDbConnector {
 
             IwwPac iwwPac = MongoDbConnector.insertIwwPac(person);
 
-            DB database = mongoClient.getDB("iww_people_data");
-            DBCollection collection = database.getCollection("iww_people");
+            DB database = mongoClient.getDB("EuropaCollectionsNewXML");
+            DBCollection collection = database.getCollection("www_person");
 
             Gson gson = new Gson();
             BasicDBObject obj = (BasicDBObject) JSON.parse(gson.toJson(iwwPac));

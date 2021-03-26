@@ -24,7 +24,7 @@ public class DomParserDemo {
             mongoClient = mongoDbConnector.connect();
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-            File dir = new File("C:\\Users\\Admin\\IdeaProjects\\x_json\\WhosWho_IgnoreBadIWWList\\WhosWho_IgnoreBadIWWList");
+            File dir = new File("C:\\Users\\Admin\\Downloads\\WhosWho\\WhosWho");
 
             File [] files = dir.listFiles();
             int file_count =1;
